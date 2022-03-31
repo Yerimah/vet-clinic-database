@@ -11,7 +11,7 @@
 
 -- Add a column species of type string to your animals table. 
 ALTER TABLE animals 
-ADD species VARCHAR(100)
+ADD species VARCHAR(100);
 
 -- Create a table named owners
 CREATE TABLE owners (
@@ -43,3 +43,28 @@ ALTER TABLE animals
   ADD CONSTRAINT fk_owners
   FOREIGN KEY (owner_id) 
   REFERENCES owners (id);
+
+  -- Create vets table
+  CREATE TABLE vets (
+      id BIGSERIAL PRIMARY KEY NOT NULL,
+      name VARCHAR(100),
+      age INT NOT NULL,
+      date_of_graduation DATE NOT NULL
+  );
+
+  --Specialization table
+CREATE TABLE specializations (
+    species_id INT NOT NULL,
+    vet_id INT NOT NULL,
+    FOREIGN KEY (species_id) REFERENCES species (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id) 
+);
+
+--Visit table
+CREATE TABLE visits (
+    animal_id INT NOT NULL,
+    vet_id INT NOT NULL,
+    date_of_visit DATE,
+    FOREIGN KEY (animal_id) REFERENCES animals (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id) 
+);
