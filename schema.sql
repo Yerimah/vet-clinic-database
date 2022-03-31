@@ -11,7 +11,7 @@
 
 -- Add a column species of type string to your animals table. 
 ALTER TABLE animals 
-ADD species VARCHAR(100)
+ADD species VARCHAR(100);
 
 -- Create a table named owners
 CREATE TABLE owners (
