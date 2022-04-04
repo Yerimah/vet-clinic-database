@@ -27,7 +27,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@Bconxy](https://twitter.com/BertrandMutanga)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana)
 
+👤 **Farouq Daif**
 
+- GitHub: [@farouqdaif1](https://github.com/farouqdaif1)
+- LinkedIn: [@Farouq Daif ](https://www.linkedin.com/in/farouqdaif/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
