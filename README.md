@@ -15,11 +15,17 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Daniel Yerimah**
 
 - GitHub: [@yerimah](https://github.com/yerimah)
 - Twitter: [@iamdeewyne](https://twitter.com/iamdeewyne)
 - LinkedIn: [@daniel-yerimah](https://linkedin.com/in/daniel-yerimah)
+
+👤 **Bertrand Mutangana Ishimwe**
+
+- GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
+- Twitter: [@Bconxy](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana)
 
 
 ## 🤝 Contributing
