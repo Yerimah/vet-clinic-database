@@ -3,6 +3,7 @@
 This is a database for a Vet Clinic created using a relational database. it contains data about different Animals, Animals' owner, clinic employees, number of visits to the clinic per day.
 
 ![datab](https://user-images.githubusercontent.com/71140133/160459170-355ccb37-e2c6-4223-8cc7-8c19901b4392.PNG)
+![schema diagram](https://user-images.githubusercontent.com/71140133/161933931-5620078d-7cde-4d11-83b3-c5b785382813.png)
 
 ## Getting Started
 
